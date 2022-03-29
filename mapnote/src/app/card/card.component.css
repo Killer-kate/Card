@@ -1,0 +1,76 @@
+.bg{
+    position: relative;
+width: 237px;
+height: 150px;
+
+background: #0094FF;
+border-radius: 7px;
+}
+
+.el1{
+    position: absolute;
+width: 59px;
+height: 14px;
+left: 11px;
+top: 6px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
+
+.el2{
+    position: absolute;
+left: 83.97%;
+top: 0px;
+right: 4.64%;
+bottom: 83.85%;
+background: #FFFFFF;
+color:white;
+}
+
+.el3{
+    position: absolute;
+width: 137px;
+height: 16px;
+left: 11px;
+top: 38px;
+
+font-family: 'Roboto Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.el4{
+    position: absolute;
+    width: 100px;
+    height: 21px;
+    left: 11px;
+    top: 100px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.el5{
+    position: absolute;
+width: 27px;
+height: 12px;
+left: 199px;
+top: 112px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+color: #FFFFFF;
+}
