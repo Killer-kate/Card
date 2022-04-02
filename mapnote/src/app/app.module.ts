@@ -3,20 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { CardComponent } from './card/card.component';
-import { AttributeDirective } from './attribute.directive';
+import { HelloComponent } from './hello.component';
+import { NumberFromatPipe } from './number-fromat.pipe';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CardComponent,
-    AttributeDirective
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, FormsModule],
+  declarations: [AppComponent, HelloComponent, NumberFromatPipe],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
