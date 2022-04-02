@@ -1,12 +1,7 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@300&display=swap');
-  </style>
-<div>
-  <app-card>
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
 
-  </app-card>
-</div>
+<hr />
 
-<p [appAttribute]="attrbutes">Start editing to see some magic happen :)</p>
-
-<button [ngClass]="someClass" (click)="onClick()">Change attr</button>
+<p>{{ 24637423.123 | numberFromat: 'ru-RU' }}</p>
+<p>{{ 24637423.123 | numberFromat: 'en-US' }}</p>
