@@ -4,11 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { NumberFromatPipe } from './number-fromat.pipe';
+import { TimerService } from './timer.service';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, NumberFromatPipe],
+  declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
+  providers: [TimerService],
 })
 export class AppModule {}
