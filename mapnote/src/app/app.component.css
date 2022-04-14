@@ -2,3 +2,29 @@ p {
     font-family: Lato;
     
   }
+
+  .form {
+    width:200px;
+    margin:0 auto;
+    border:2px solid black;
+    padding: 30px;
+  }
+
+  .form label{
+    font-size:18px;
+  }
+
+  .form select{
+    margin: 15px 0 15px 0;
+  }
+
+  .form input{
+    margin: 15px 0 15px 0;
+    width:200px;
+    height:25px;
+  }
+
+  .form button{
+    margin: 0 auto;
+    display:block;
+  }
