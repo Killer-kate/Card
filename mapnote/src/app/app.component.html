@@ -1,22 +1,23 @@
-<form [formGroup]="productForm">
+<div class="form">
+   <form [formGroup]="productForm">
     <div class="field">
-      <label for="id">ID</label>
-      <input id="id" type="text" formControlName="id" />
+      <label for="id">ID</label><br>
+      <input id="id" type="text" formControlName="id" /><br>
       <button type="button" (click)="onClickGenerateButton()">Generate</button>
     </div>
   
     <div class="field">
-      <label for="name">Name</label>
+      <label for="name">Name</label><br>
       <input id="name" type="text" formControlName="name" />
     </div>
   
     <div class="field">
-      <label for="price">Price</label>
+      <label for="price">Price</label><br>
       <input id="price" type="number" formControlName="price" />
     </div>
   
     <div class="field">
-      <label for="categories">Categories</label>
+      <label for="categories">Categories</label><br>
       <select multiple formControlName="categories">
         <option value="shoes">Обувь</option>
         <option value="clothes">Одежда</option>
@@ -29,4 +30,5 @@
     <div class="field">
       <button type="button" (click)="onSubmit()">Submit</button>
     </div>
-  </form>
+  </form> 
+</div>
