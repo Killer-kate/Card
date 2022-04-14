@@ -1,3 +1,32 @@
-<hello name="{{ name }}"></hello>
-<p>Отдохни немножко и продолжай работать (* ^ ω ^)</p>
-<p><output id="timer-output"></output>$ - а это тебе на кофе (´｡• ᵕ •｡)</p>
+<form [formGroup]="productForm">
+    <div class="field">
+      <label for="id">ID</label>
+      <input id="id" type="text" formControlName="id" />
+      <button type="button" (click)="onClickGenerateButton()">Generate</button>
+    </div>
+  
+    <div class="field">
+      <label for="name">Name</label>
+      <input id="name" type="text" formControlName="name" />
+    </div>
+  
+    <div class="field">
+      <label for="price">Price</label>
+      <input id="price" type="number" formControlName="price" />
+    </div>
+  
+    <div class="field">
+      <label for="categories">Categories</label>
+      <select multiple formControlName="categories">
+        <option value="shoes">Обувь</option>
+        <option value="clothes">Одежда</option>
+        <option value="medicines">Лекарства</option>
+        <option value="food">Еда</option>
+        <option value="electronic">Электроника</option>
+      </select>
+    </div>
+  
+    <div class="field">
+      <button type="button" (click)="onSubmit()">Submit</button>
+    </div>
+  </form>
